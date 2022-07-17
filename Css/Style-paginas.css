@@ -1,0 +1,235 @@
+/*Reset*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Navegador*/
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 2px;
+    justify-content: space-around;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0px;
+   }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav{
+    background-color: white;
+    border-color: black;
+    border-style:double
+}
+
+/*Background*/
+
+.cuerpo{
+    background-color: #ffcc66;
+}
+
+/*Home*/
+
+.fotoClebia{
+    
+    height: 120vh;
+    background: url(../img/2.png); 
+    background-repeat: no-repeat;
+    background-position:center;
+    text-align: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 90px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*contato*/
+
+.formulario{
+    margin: auto;
+    margin-bottom: 115px; 
+    width: 220px;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    border-radius: 10px;
+    border-width: 0;
+}
+
+.formgroup{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h1{
+    display: flexbox;
+    margin: 20px;
+    text-align: center;   
+}
+
+.contatoTitulo{
+    text-align: center;  
+}
+
+input{
+    border-width: 2px;
+}
+
+.gridcont{
+    display: grid;
+    grid-template-areas:
+    "menu menu menu"
+    "vazio divdecontato vazio"
+    "bajo bajo bajo";
+    grid-template-rows: 80px;
+    grid-template-columns: 20% 50% auto;
+    grid-column-gap: 30px;
+}
+
+.divdecontato{
+    grid-area: divdecontato;
+}
+
+.vazio{
+    grid-area: vazio;
+}
+
+/*blog*/
+
+.container {
+    height: 700px;
+    border: solid black;
+    background-color: white;
+    text-align: unset ;
+    text-overflow: inherit;
+
+}
+
+.grilla{
+    display: grid;
+    grid-template-areas:
+    "menu menu menu"
+    "contenido contenido sidebar"
+    "bajo bajo bajo";
+    grid-template-rows: 80px;
+    grid-template-columns: 20% 50% auto;
+    grid-column-gap: 20px;
+}
+
+.menu{
+    grid-area: menu;
+}
+.contenido{
+    grid-area: contenido;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.bajo{
+    grid-area: bajo;
+}
+
+.sidebar{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    text-align: center;
+}
+
+#linha-horizontal {
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blogsection{
+    background-color: white;
+    border-color: black;
+    border-style: inset;
+    margin-top: 20px;
+
+}
+
+
+p{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.linkinterno{
+    color: blue;
+}
+
+.blogsection{
+    padding: 20px;
+}
+
+.vejaTambem{
+    padding: 10px;
+}
+
+/*Loja*/
+
+.textocentral{
+    text-align: center;
+}
+
+.img-fluid{
+        width: auto;
+        height: auto;
+
+}
+
+.loja{
+    margin: 90px;
+}
+
+.img-fluid:hover{
+    transform: scale(1.5,1.5);
+}
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color: white;
+    border-color: black;
+    border-style:double
+}
+
+.icones-sociais img{ 
+    max-width: 25px; 
+}
+
+/*Responsive*/
+
+@media  (max-width: 600px) {
+
+    .formulario{
+        margin-bottom: 25px;
+    }
+    
+
+    .grilla{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .fotoClebia{
+        margin: 0.2%; 
+        align-content: center;
+    }
+
+}
