@@ -8,23 +8,12 @@
 /*Navegador*/
 
 ul {
-    list-style-type: none;
-    display: flex;
     padding: 2px;
-    justify-content: space-around;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-bottom: 0px;
    }
 
-a {
-    color: black;
-    text-decoration: none;
-}
-
 nav{
-    background-color: white;
-    border-color: black;
-    border-style:double
+    background-color: #e3f2fd;
 }
 
 /*Background*/
@@ -56,24 +45,25 @@ nav{
 
 .formulario{
     margin: auto;
-    margin-bottom: 115px; 
-    width: 220px;
+    margin-bottom: 63px; 
+    width: 300px;
     background-color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     line-height: 40px;
     border-radius: 10px;
     border-width: 0;
+    padding: 1rem;
 }
 
-.formgroup{
-    margin-left: 5px;
-    margin-right: 5px;
+.btn{
+    margin-top: 10px;
 }
 
 h1{
     display: flexbox;
-    margin: 20px;
+    margin: 10px;
+    margin-block-end: 5rem;
     text-align: center;   
 }
 
@@ -184,12 +174,6 @@ p{
     text-align: center;
 }
 
-.img-fluid{
-        width: auto;
-        height: auto;
-
-}
-
 .loja{
     margin: 90px;
 }
@@ -200,15 +184,7 @@ p{
 
 /*Footer*/
 
-footer{
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    background-color: white;
-    border-color: black;
-    border-style:double
-}
-
-.icones-sociais img{ 
+#icones-sociais img{ 
     max-width: 25px; 
 }
 
