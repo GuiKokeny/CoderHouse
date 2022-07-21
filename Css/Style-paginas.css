@@ -45,7 +45,8 @@ nav{
 
 .formulario{
     margin: auto;
-    margin-bottom: 63px; 
+    margin-bottom: 84px;
+    margin-top: 60px;
     width: 300px;
     background-color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -62,8 +63,7 @@ nav{
 
 h1{
     display: flexbox;
-    margin: 10px;
-    margin-block-end: 5rem;
+    margin-top: 10px;
     text-align: center;   
 }
 
@@ -96,7 +96,7 @@ input{
 
 /*blog*/
 
-.container {
+.container2 {
     height: 700px;
     border: solid black;
     background-color: white;
@@ -180,6 +180,18 @@ p{
 
 .img-fluid:hover{
     transform: scale(1.5,1.5);
+}
+
+/*Sobre*/
+
+#scrool{
+    height:568px;
+    overflow-y: scroll;
+    padding: 60px;
+}
+
+.ratio{
+    margin-left: 10px;
 }
 
 /*Footer*/
