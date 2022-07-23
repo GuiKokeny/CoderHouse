@@ -13,7 +13,7 @@ ul {
    }
 
 nav{
-    background-color: #e3f2fd;
+    background-color: white;
 }
 
 /*Background*/
@@ -25,8 +25,7 @@ nav{
 /*Home*/
 
 .fotoClebia{
-    
-    height: 120vh;
+    height: 86vh;
     background: url(../img/2.png); 
     background-repeat: no-repeat;
     background-position:center;
@@ -127,6 +126,7 @@ input{
 }
 .bajo{
     grid-area: bajo;
+    background-color: white;
 }
 
 .sidebar{
@@ -145,8 +145,9 @@ input{
 .blogsection{
     background-color: white;
     border-color: black;
-    border-style: inset;
+    border-style: ridge;
     margin-top: 20px;
+    padding: 20px;
 
 }
 
@@ -160,9 +161,6 @@ p{
     color: blue;
 }
 
-.blogsection{
-    padding: 20px;
-}
 
 .vejaTambem{
     padding: 10px;
@@ -184,14 +182,26 @@ p{
 
 /*Sobre*/
 
-#scrool{
+#scroll{
     height:568px;
     overflow-y: scroll;
     padding: 60px;
 }
 
+
 .ratio{
     margin-left: 10px;
+}
+
+video {
+    width: 30rem;
+  }
+
+/*Portifolio*/
+
+.tamanopagina{
+    height: 567px;
+    padding: 30px;
 }
 
 /*Footer*/
@@ -207,7 +217,7 @@ p{
     .formulario{
         margin-bottom: 25px;
     }
-    
+
 
     .grilla{
         display: flex;
