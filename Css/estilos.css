@@ -1,0 +1,152 @@
+/*Reset*/
+* {
+  margin: 0px;
+  padding: 0px; }
+
+/*Navegador*/
+nav {
+  background-color: white; }
+  nav ul {
+    padding: 2px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+
+/*Background*/
+.cuerpo {
+  background-color: #ffcc66; }
+
+/*Home*/
+.fotoClebia {
+  height: 86vh;
+  background: url(../img/2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  font-size: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*contato*/
+.gridcont {
+  display: grid;
+  grid-template-areas: "menu menu menu" "vazio divdecontato vazio" "bajo bajo bajo";
+  grid-template-rows: 80px;
+  grid-template-columns: 20% 50% auto;
+  grid-column-gap: 30px; }
+
+.vazio {
+  grid-area: vazio; }
+
+h1 {
+  display: flexbox;
+  margin-top: 10px;
+  text-align: center; }
+
+.divdecontato {
+  grid-area: divdecontato; }
+  .divdecontato .formulario {
+    margin: auto;
+    margin-bottom: 80px;
+    margin-top: 60px;
+    width: 300px;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 1rem; }
+    .divdecontato .formulario .btn {
+      margin-top: 10px; }
+    .divdecontato .formulario input {
+      border-width: 2px; }
+
+/*blog*/
+.grilla {
+  display: grid;
+  grid-template-areas: "menu menu menu" "contenido contenido sidebar" "bajo bajo bajo";
+  grid-template-rows: 80px;
+  grid-template-columns: 20% 50% auto;
+  grid-column-gap: 20px; }
+
+.menu {
+  grid-area: menu; }
+
+.contenido {
+  grid-area: contenido; }
+  .contenido .container2 {
+    height: 700px;
+    border: solid black;
+    background-color: white;
+    text-align: unset;
+    text-overflow: inherit; }
+    .contenido .container2 #linha-horizontal {
+      border: 1px solid black;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    .contenido .container2 .linkinterno {
+      color: blue; }
+  .contenido .blogsection {
+    background-color: white;
+    border-color: black;
+    border-style: ridge;
+    margin-top: 20px;
+    padding: 20px; }
+
+.bajo {
+  grid-area: bajo;
+  background-color: white; }
+
+.sidebar {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  text-align: center;
+  grid-area: sidebar; }
+
+p {
+  margin-top: 16px;
+  margin-bottom: 16px; }
+
+.vejaTambem {
+  padding: 10px; }
+
+/*Loja*/
+.loja {
+  margin: 90px; }
+  .loja .textocentral {
+    text-align: center; }
+
+.img-fluid:hover {
+  transform: scale(1.5, 1.5); }
+
+/*Sobre*/
+#scroll {
+  height: 568px;
+  overflow-y: scroll;
+  padding: 60px; }
+
+.ratio {
+  margin-left: 10px; }
+
+/*Portifolio*/
+.tamanopagina {
+  height: 567px;
+  padding: 30px; }
+
+/*Footer*/
+#icones-sociais img {
+  max-width: 25px; }
+
+/*Responsive*/
+@media (max-width: 600px) {
+  .formulario {
+    margin-bottom: 25px; }
+  .grilla {
+    display: flex;
+    flex-direction: column; }
+  .fotoClebia {
+    margin: 0.2%;
+    align-content: center; } }
