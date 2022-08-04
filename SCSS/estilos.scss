@@ -11,7 +11,7 @@
 
 
 nav{
-    background-color: $color-secundaria;
+    background-color: color(color-secundaria)
     ul {
         padding: 2px;
         font-family: $font-family;
@@ -22,7 +22,7 @@ nav{
 /*Background*/
 
 .cuerpo{
-    background-color: $color-primaria;
+    background-color: color(color-primaria);
 }
 
 /*Home*/
@@ -117,27 +117,27 @@ h1{
     
     .container2 {
         height: 700px;
-        border: solid $color-terciaria;
-        background-color: $color-secundaria;
+        border: solid color(color-terciaria);
+        background-color: color(color-secundaria);
         text-align: unset ;
         text-overflow: inherit;
 
         #linha-horizontal {
-            border: 1px solid $color-terciaria;
+            border: 1px solid color(color-terciaria);
             margin-top: 10px;
             margin-bottom: 10px;
         }
 
         .linkinterno{
-            color: $color-extra;
+            color: Color(color-extra);
         }
         
     
     }
 
     .blogsection{
-        background-color: $color-secundaria;
-        border-color: $color-terciaria;
+        background-color: color(color-secundaria);
+        border-color: color (color-terciaria);
         border-style: ridge;
         margin-top: 20px;
         padding: 20px;
@@ -147,7 +147,7 @@ h1{
 
 .bajo{
     grid-area: bajo;
-    background-color: $color-secundaria;
+    background-color: color(color-secundaria);
 }
 
 .sidebar{
