@@ -31,7 +31,9 @@ nav {
 /*contato*/
 .gridcont {
   display: grid;
-  grid-template-areas: "menu menu menu" "vazio divdecontato vazio" "bajo bajo bajo";
+  grid-template-areas: "menu menu menu"
+ "vazio divdecontato vazio"
+ "bajo bajo bajo";
   grid-template-rows: 80px;
   grid-template-columns: 20% 50% auto;
   grid-column-gap: 30px; }
@@ -66,7 +68,9 @@ h1 {
 /*blog*/
 .grilla {
   display: grid;
-  grid-template-areas: "menu menu menu" "contenido contenido sidebar" "bajo bajo bajo";
+  grid-template-areas: "menu menu menu"
+ "contenido contenido sidebar"
+ "bajo bajo bajo";
   grid-template-rows: 80px;
   grid-template-columns: 20% 50% auto;
   grid-column-gap: 20px; }
@@ -106,6 +110,7 @@ h1 {
   text-align: center;
   grid-area: sidebar; }
 
+  
 p {
   margin-top: 16px;
   margin-bottom: 16px; }
