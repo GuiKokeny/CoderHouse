@@ -1,5 +1,7 @@
 @import "_variables.scss";
 
+
+
 /*Reset*/
 
 *{
@@ -8,6 +10,10 @@
 }
 
 /*Navegador*/
+
+body{
+    width: 100%;
+}
 
 
 nav{
