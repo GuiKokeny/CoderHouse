@@ -14,6 +14,7 @@ nav {
 .cuerpo {
   background-color: #ffcc66; }
 
+
 /*Home*/
 .fotoClebia {
   height: 86vh;
@@ -144,8 +145,8 @@ p {
 /*Footer*/
 #icones-sociais img {
   max-width: 25px; }
-
-/*Responsive*/
+  
+  /*Responsive*/
 @media (max-width: 600px) {
   .formulario {
     margin-bottom: 25px; }
